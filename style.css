@@ -12,7 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 95vh;
-    background: url('assets/falling.webp') no-repeat;
+    background: url('assets/264162.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -61,26 +61,6 @@ header {
 .navigation a:hover::after {
     transform-origin: left;
     transform: scaleX(1);
-}
-
-.navigation .btnlLogin-popup {
-    width: 130px;
-    height: 50px;
-    background: transparent;
-    border: 2px solid #fff;
-    outline: none;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 1.1em;
-    color: #fff;
-    font-weight: 500;
-    margin-left: 40px;
-    transition: .5s;
-}
-
-.navigation .btnlLogin-popup:hover {
-    background: #fff;
-    color: #162938;
 }
 
 .wrapper {
@@ -206,3 +186,6 @@ header {
 .login-register p a:hover {
     text-decoration: underline;
 }
+
+/* Modal / popup styles (keeps existing form-box look) */
+/* Additional modal styles can be added here */
